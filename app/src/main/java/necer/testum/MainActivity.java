@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void aaa(View view) {
         new Umeng(this).initShare("百度官网", "百度是一加互联网公司...", "text", "https://www.baidu.com/", R.drawable.umeng_socialize_qq).show();
+
     }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
